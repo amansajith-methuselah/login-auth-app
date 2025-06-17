@@ -1,0 +1,64 @@
+/* src/styles/Login.css */
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  background-color: #dceeff;
+}
+
+.login-left {
+  flex: 1;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #ccc;
+}
+
+.login-image {
+  width: 80%;
+  max-width: 400px;
+}
+
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #f5faff;
+}
+
+.login-paper {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #0d47a1; /* dark blue */
+  color: white;
+}
+
+.login-paper .MuiInputBase-root {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.login-paper .MuiInputLabel-root {
+  color: #ffffff;
+}
+
+.login-paper .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff;
+}
+
+.login-paper .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff;
+}
+
+.login-paper .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff;
+}
+
+.login-paper .MuiInputBase-input {
+  color: #000000;
+}
