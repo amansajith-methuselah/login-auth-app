@@ -1,8 +1,0 @@
-const firebaseConfig = {
-  apiKey: "AIzaSyCyQq7tjMoF3S716yg5gSPNP6xT730nqnE",
-  authDomain: "my-app-2e06d.firebaseapp.com",
-  projectId: "my-app-2e06d",
-  storageBucket: "my-app-2e06d.firebasestorage.app",
-  messagingSenderId: "779067208007",
-  appId: "1:779067208007:web:ad05c86277156326f3dc62"
-};
