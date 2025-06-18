@@ -1,0 +1,9 @@
+# Ignore dependencies and build artifacts
+node_modules/
+.cache/
+.env
+dist/
+build/
+.DS_Store
+*.log
+serviceAccountkey.json

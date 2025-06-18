@@ -17,13 +17,14 @@ import {
 
 // ✅ Your Firebase Config
 const firebaseConfig = {
-  apiKey: "AIzaSyCyQq7tjMoF3S716yg5gSPNP6xT730nqnE",
-  authDomain: "my-app-2e06d.firebaseapp.com",
-  projectId: "my-app-2e06d",
-  storageBucket: "my-app-2e06d.appspot.com",
-  messagingSenderId: "779067208007",
-  appId: "1:779067208007:web:ad05c86277156326f3dc62",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
+
 
 // ✅ Initialize Firebase
 const app = initializeApp(firebaseConfig);
